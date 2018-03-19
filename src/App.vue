@@ -19,7 +19,7 @@ export default {
   metaInfo: {
     title: 'DigPanda Resellers',
     link: [
-      { rel: 'stylesheet', href: 'https://file.myfontastic.com/mLeXuFUMRFSYfxjxh5UTTd/icons.css' },
+      { rel: 'stylesheet', href: 'https://file.myfontastic.com/o94vf7QHHyp7pzGyLgpxaa/icons.css' },
       { rel: 'icon', href: '/static/images/icons/favicon.png', type: 'image/png' } // type: 'image/png'
     ]
   },

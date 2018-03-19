@@ -1,0 +1,9 @@
+.crash-error {
+  padding: 2em;
+  font-size: 40px;
+  color: $error-color;
+  span {
+    font-size: 50px;
+    vertical-align: bottom;
+  }
+}

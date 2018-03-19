@@ -67,12 +67,6 @@ Vue.use(VueNoty, {
 // Idle management
 Idle.start()
 
-// VueRouter
-// Vue.use(Router)
-
-// VueMeta
-// Vue.use(Meta)
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
