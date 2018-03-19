@@ -1,0 +1,54 @@
+.header {
+  background-color: $header-background-color;
+  color: $header-text-color;
+  padding: 1em;
+  border-bottom: 3px solid $header-border-color;
+
+  a {
+    text-decoration: none;
+    color: $header-text-color;
+  }
+}
+
+.header__title {
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 1.2em;
+  font-weight: 600;
+  font-size: 20px;
+  font-weight: bold;
+  span:first-child {
+    vertical-align: sub;
+  }
+  span:last-child {
+    border-bottom: solid 2px $main-red-color;
+  }
+}
+
+.header__site {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  span {
+    border-bottom: solid 2px $main-red-color;
+  }
+}
+
+.header__actions {
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 1.2em;
+  font-size: 16px;
+  opacity: 1;
+  margin-top: 0.3em;
+}
+
+.header__actions--selected {
+  color: $main-red-color;
+  opacity: 1;
+}
+
+.header__actions--unselected {
+  opacity: 0.3;
+}

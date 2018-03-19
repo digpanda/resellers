@@ -1,0 +1,15 @@
+a {
+  color: $section-title-color;
+  display: block;
+  cursor: pointer;
+}
+
+a:hover {
+  /* -webkit-filter: opacity(0.9);
+  filter: opacity(0.9); */
+}
+
+a:active {
+  -webkit-filter: opacity(0.85);
+  filter: opacity(0.85);
+}

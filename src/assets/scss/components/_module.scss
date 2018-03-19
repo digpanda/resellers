@@ -1,0 +1,275 @@
+.module {
+  background-color: $module-background-color;
+  border: 2px solid $module-border-color;
+  @include border-radius(7px);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  a {
+    text-decoration: none;
+  }
+}
+
+.module__bubble {
+  // background-color: $main-background-color; // $module-title-background-color;
+  color: $module-title-color;
+  padding: 1em;
+  text-align: left;
+  @include border-radius(7px);
+  @include wrap-words;
+    h2 {
+      @include wrap-words;
+    }
+
+}
+
+/* .module__investment {
+  border: 2px solid $color-folio-border;
+} */
+
+.module__bubble--fixed {
+  height: 100px;
+}
+
+.module__bubble-logo {
+  text-align: center;
+  img {
+    max-height: 100px
+  }
+}
+.module__bubble-title {
+  margin-top: 25px; // linked to logo image
+
+  @include wrap-words;
+  text-align: center;
+
+  span {
+    font-size: 43px;
+    word-wrap: break-word;
+    vertical-align: super;
+  }
+
+}
+
+.module__bubble-action {
+  margin-top: 25px; // linked to logo image
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.module__title {
+  background-color: $module-title-background-color;
+  border-bottom: 2px solid $module-border-color;
+  color: $module-title-color;
+  padding: 1em;
+  @include border-radius-top(7px);
+  @include wrap-words;
+}
+
+.module__subtitle {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.module__title-primary {
+  font-size: 24px;
+  color: $color-primary-on;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.module__title-favorite {
+  font-size: 24px;
+  color: $color-favorite-on;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.module__title-portfolio {
+  font-size: 24px;
+  color: $color-folio-on;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.module__title-default {
+  font-size: 24px;
+  color: $color-default-on;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.module__content {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  padding-bottom: 0.2em;
+  padding-top: 0.3em;
+
+  .--ultra-small {
+    font-size: 16px;
+  }
+
+  .--small {
+    font-size: 25px;
+  }
+
+  .--very-small {
+    font-size: 22px;
+  }
+
+  .--medium {
+    font-size: 35px;
+  }
+
+  .--extra-big {
+    font-size: 45px;
+  }
+
+  .--opacity {
+    opacity: 0.5;
+  }
+
+}
+
+.module__content-connect {
+  text-align: left;
+
+  input {
+    margin: 1em;
+  }
+
+  input {
+    border: 2px solid $module-border-color;
+
+    &:focus {
+      border-color: $main-highlight-color;
+    }
+  }
+
+  input[type="submit"] {
+    margin-left: 1.2em;
+    text-align: center;
+    background-color: $main-highlight-color;
+  }
+}
+
+.module__content-connect-note {
+  color: $module-title-color;
+  opacity: 0.7;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.module__content-folio {
+  margin-bottom: 0.7em;
+
+  input {
+    border: 2px solid $module-border-color;
+    font-size: 20px;
+
+    &:focus {
+      border-color: $main-highlight-color;
+    }
+  }
+}
+
+.module__content-digits {
+  @include wrap-words;
+  text-align: center;
+  font-size: 43px;
+  word-wrap: break-word;
+  line-height: 40px;
+}
+
+.module__content-digits--portfolio-units {
+  @include wrap-words;
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 16px;
+  word-wrap: break-word;
+  opacity: 0.5;
+}
+
+.module__content-percent {
+  text-align: center;
+  font-size: 60px;
+}
+
+.module__content-details {
+  opacity: 0.5;
+  margin-top: -0.5em;
+}
+
+.module__bubble-footer {
+  font-size: 12px;
+  color: $module-title-color;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+}
+
+.module__footer {
+  font-size: 12px;
+  color: $module-title-color;
+  margin: 0.5em;
+
+  .--small {
+    font-size: 18px;
+  }
+
+  .--stick {
+    margin-top: -1em;
+  }
+}
+
+.module__footer-low {
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.module__footer-high {
+  line-height: 20px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.module__footer-details {
+  font-size: 14px;
+  margin-left: 0.5em;
+  margin-top: -0.3em;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.module__footer-action {
+  font-size: 30px;
+  text-align: right;
+  margin-top: -0.5em;
+  a {
+    opacity: 0.5;
+    display: inline-block;
+    &:hover {
+      opacity: 1.0;
+    }
+  }
+
+  .--selected {
+    color: $color-folio-button;
+    opacity: 1.0;
+  }
+
+  .icon {
+    cursor: pointer;
+  }
+}
+
+.module__after-footer {
+  text-align: right;
+  a {
+    opacity: 0.5;
+    display: inline-block;
+    &:hover {
+      opacity: 1.0;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.\+pointer {
+  cursor: pointer;
+}
+
+.\+mobile {
+  @include breakpoint(desktop) {
+    display: none;
+  }
+}
+
+.\+desktop {
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.\+small-spacer {
+  margin: 1em;
+}
+
+.\+centered {
+  text-align: center;
+}

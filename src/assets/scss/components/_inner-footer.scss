@@ -1,0 +1,19 @@
+.inner-footer {
+  margin-left: 1.7em;
+  margin-right: 1.7em;
+  margin-bottom: 2em;
+  span {
+    color: $main-highlight-color;
+    vertical-align: sub;
+    font-size: 18px;
+  }
+  a {
+    color: $main-black;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $main-highlight-color;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,63 @@
+$main-color: #ebebeb; // #8870FF
+$main-black: #465261;
+$main-highlight-color: #7f81f7;
+$main-background-color: #F3F5F6; // #EDF9FF
+$main-red-color: #CF000F;
+$main-white: #FFF;
+
+$module-background-color: #fdfdfd;
+$module-border-color: #F3F5F6;
+$module-title-background-color: #FFF;
+$module-title-color: $main-black;
+
+$death-color: #E22211;
+$apocalypse-color: #E22211;
+$bloodbath-color: #CF000F;
+$bloody-color: #CF000F;
+$very-bloody-color: #CF000F;
+$boring-color: $main-black;
+$sunny-color: #98be62;
+$very-sunny-color: #98be62;
+$to-the-moon-color: $main-highlight-color;
+$to-andromeda-galaxy-color: $main-highlight-color;
+$infinity-and-beyond-color: $main-highlight-color;
+
+$section-title-color: $main-black;
+
+$default-button-background-color: $main-black;
+$default-button-text-color: #FFF;
+
+$danger-button-background-color: #d0342c;
+$important-button-background-color: $main-highlight-color;
+$important-input-border-color: $main-highlight-color;
+
+$header-background-color: $main-white;
+$header-border-color: $main-color;
+$header-text-color: $main-black;
+
+$footer-background-color: $main-white;
+$footer-text-color: $main-black;
+$footer-border-color: $main-color;
+
+$loader-text-color: $main-red-color;
+
+$text-red-color: #FF9595;
+$error-text-color: $text-red-color;
+
+$positive-number: #98be62;
+$negative-number: #d0342c;
+
+$color-favorite-on: $main-highlight-color; // #FFAE4F;
+$color-primary-on: #98be62;
+$color-folio-on: $main-highlight-color;
+$color-default-on: $module-border-color;
+
+$input-placeholder-color: #d6d6d6;
+
+$color-folio-button: $main-highlight-color;
+
+$color-folio-border: $main-highlight-color;
+
+$filled-pattern-in-white: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+$diagonal-stripes-pattern-in-white: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f4f4f4' fill-opacity='0.14' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+$diagonal-stripes-pattern-in-highlight: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237f81f7' fill-opacity='0.03' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");

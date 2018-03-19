@@ -1,0 +1,29 @@
+@include g-setup( (
+	context : 12,
+	gutter-width : 10px,
+	direction : ltr,
+) );
+
+@include g-register-state ( mobile , (
+	max-width : 480px
+) );
+@include g-register-state ( tablet , (
+	min-width : 481px,
+	max-width : 1024px
+) ) ;
+
+// even with full custom queries :
+@include g-register-state ( landscape, (
+	query : "(orientation : landscape)"
+) );
+
+@include g-classes();
+
+// init the grid here!
+@include g-init();
+
+// gridle hooks
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
