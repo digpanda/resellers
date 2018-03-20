@@ -45,8 +45,8 @@ const actions = {
 
   async updateUser (context, { params, callback }) {
     let response = await axios.patch(`customer/account`, { user: params.changeset })
-    context.commit('setCurrentUser', response.data)
-    callback(response.data)
+    context.commit('setCurrentUser', response.data.user)
+    callback(response.data.user)
   }
 }
 

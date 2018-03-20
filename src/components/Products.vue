@@ -17,6 +17,7 @@ export default {
   },
 
   created () {
+    console.log('in products')
   },
 
   watch: {
