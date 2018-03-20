@@ -46,7 +46,7 @@
 </template>
 
 <script>
-// import router from '@/router'
+import router from '@/router'
 // import { mapGetters } from 'vuex'
 
 export default {
@@ -70,9 +70,13 @@ export default {
   methods: {
     getStarted () {
       // we update the user as he clicked to getting started
-      this.$store.dispatch('updateUser', { changeset: { resellers_platform_at: true } })
-      // we also redirect him to start buying for resells
-      console.log('here we redirect')
+      this.$store.dispatch('updateUser', {
+        params: { changeset: { resellers_platform_at: true } },
+        callback: (data) => {
+          // now that it got processed we can go further
+          router.push({ name: 'products', params: { } })
+        }
+      })
     }
   },
 
