@@ -41,15 +41,7 @@ export default {
     * until the person refreshes the page entirely
     */
     EventBus.$on('crashEvent', error => {
-      if (!error) {
-        this.error = 'Oh snap ! There is an unknown error, please refresh the page.'
-        return
-      }
-      if (error.message === 'Network Error') {
-        this.error = 'Oh snap ! There is a network error, please refresh the page.'
-      } else {
-        this.error = error
-      }
+      this.error = error
     })
 
     /**

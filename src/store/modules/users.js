@@ -39,7 +39,7 @@ const actions = {
       console.log(context.state.currentUser)
       // window.location.href = '/'
     } catch (error) {
-      EventBus.$emit('crashEvent', error.response.data.error)
+      EventBus.$emit('crashEvent', 'Impossible to log-in to Wechat')
     }
   }
 }

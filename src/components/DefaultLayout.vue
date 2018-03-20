@@ -1,13 +1,13 @@
 <template>
-  <div class="index">
-    <default-layout>
-    INDEX HERE
-    </default-layout>
+  <div class="default-layout">
+      <default-header />
+      <default-footer />
   </div>
 </template>
 
 <script>
-import DefaultLayout from '@/components/DefaultLayout'
+import DefaultHeader from '@/components/DefaultHeader'
+import DefaultFooter from '@/components/DefaultFooter'
 
 // import router from '@/router'
 // import { mapGetters } from 'vuex'
@@ -28,7 +28,8 @@ export default {
   },
 
   components: {
-    DefaultLayout
+    DefaultHeader,
+    DefaultFooter
   }
 }
 </script>
