@@ -41,6 +41,10 @@ const actions = {
     } catch (error) {
       EventBus.$emit('crashEvent', 'Impossible to log-in to Wechat')
     }
+  },
+  async updateUser (context, params) {
+    let response = await axios.patch(`user`, { user: params.changeset })
+    context.commit('setUser', response.data)
   }
 }
 

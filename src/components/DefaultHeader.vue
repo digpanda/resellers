@@ -1,5 +1,5 @@
 <template>
-  <div class="row header"> <!-- row-full header was removed as it made display bugs -->
+  <div class="row row-full header" ref="header">
     HEADER HERE
   </div>
 </template>

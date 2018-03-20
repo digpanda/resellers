@@ -58,6 +58,8 @@ export default {
   methods: {
     connectWechat () {
       let code = this.$route.query.code
+      // NOTE : while in development we auto-set the code so it's faster to get into things
+      code = 'guide@guide.com'
       this.$store.dispatch('authenticateWechatUser', { code: code })
     }
   },

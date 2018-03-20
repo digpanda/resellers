@@ -1,0 +1,88 @@
+.getting-started {
+  padding-top: 15vh;
+  height: 85vh;
+  color: $main-white;
+
+  background-color: $main-blue;
+  a {
+    color: $main-blue;
+  }
+
+  div {
+    opacity: 1 !important;
+  }
+
+  span {
+    color: $main-white !important;
+  }
+}
+
+.getting-started__links {
+  text-align: center;
+
+  a {
+    padding-bottom: 0.2em;
+    display: inline-block;
+    color: $main-white !important;
+    text-decoration: none;
+    &:hover {
+      color: $main-white !important;
+      border-bottom: 1px solid $main-white;
+    }
+  }
+}
+
+.getting-started__buttons {
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid $main-white;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: $main-white;
+    box-shadow: 0px 4px 7px $button-shadow;
+    &:active {
+      box-shadow: none;
+    }
+  }
+}
+
+
+.getting-started__icon {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 140px;
+}
+
+.getting-started__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.getting-started__info {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.4;
+  span {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+}
+
+.getting-started__disclaimer {
+  margin: 2em;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.4;
+  span {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+}

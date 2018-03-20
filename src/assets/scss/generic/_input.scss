@@ -11,17 +11,17 @@ input {
   box-shadow: none;
   @include border-radius(3px);
 
-  border: 2px solid $module-border-color;
+  // border: 2px solid $module-border-color;
   font-size: 18px;
   width: -webkit-fill-available;
 
   &:focus {
-    border-color: $footer-border-color;
+    // border-color: $footer-border-color;
   }
 }
 
 ::placeholder {
-   color: $input-placeholder-color;
+   // color: $input-placeholder-color;
    opacity: 0.8;
 }
 

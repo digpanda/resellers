@@ -1,11 +1,14 @@
 <template>
   <div class="index">
+    <default-layout>
+    PRODUCTS PAGE
+    </default-layout>
   </div>
 </template>
 
 <script>
 import DefaultLayout from '@/components/DefaultLayout'
-import router from '@/router'
+// import { mapGetters } from 'vuex'
 
 export default {
   data () {
@@ -14,11 +17,6 @@ export default {
   },
 
   created () {
-    if (this.currentUser.resellers_platform_at) {
-      router.push({ name: 'products', params: { } })
-    } else {
-      router.push({ name: 'getting-started', params: { } })
-    }
   },
 
   watch: {
