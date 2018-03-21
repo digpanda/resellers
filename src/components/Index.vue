@@ -1,5 +1,5 @@
 <template>
-  <div class="index">
+  <div class="index">    
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
 
   created () {
     if (this.currentUser.resellers_platform_at) {
-      router.push({ name: 'products', params: { } })
+      router.push({ name: 'dashboard', params: { } })
     } else {
       router.push({ name: 'getting-started', params: { } })
     }

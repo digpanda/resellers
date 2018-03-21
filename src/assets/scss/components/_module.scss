@@ -1,0 +1,47 @@
+.module {
+  padding: 1em;
+  margin: 1em;
+}
+
+.module__title {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+
+.module__search {
+  position: relative;
+
+  input {
+    border: 2px solid $main-black;
+    color: $main-black;
+    font-size: 18px;
+    @include border-radius(5px);
+    width: inherit;
+    width: -webkit-fill-available;
+    &:focus {
+      border-color: $main-blue;
+    }
+  }
+}
+
+.module__inner {
+}
+
+.module__inner-title {
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+}
+
+.module__window {
+  background-color: $main-white;
+  padding: 0.5em;
+  margin-bottom: 0.3em;
+  margin-right: 0.3em;
+  border: 1px solid $main-black;
+}
+
+.module__window-image {
+  img {
+    max-width: 100%;
+  }
+}

@@ -2,17 +2,16 @@
   <div class="row row-full header" ref="header">
     <div class="gr-4">
       <div class="header__title">
-        Products finder
+        Dashboard
       </div>
     </div>
     <div class="gr-4">
       <div class="header__title">
-        Place order now
       </div>
     </div>
     <div class="gr-4">
       <div class="header__title">
-        My Profile
+        Checkout
       </div>
     </div>
   </div>
