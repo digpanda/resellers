@@ -1,0 +1,15 @@
+.header {
+  background-color: $main-white;
+  color: $main-black;
+  padding: 1em;
+  border-bottom: 2px solid $main-black;
+
+  a {
+    text-decoration: none;
+    color: $main-black;
+  }
+}
+
+.header__title {
+  text-align: center;
+}
