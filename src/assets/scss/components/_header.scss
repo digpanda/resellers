@@ -1,16 +1,12 @@
 .header {
   color: $main-blue;
   padding: 1em;
-  // border-bottom: 2px solid $main-black;
-  text-transform: uppercase;
-
-  a {
-    text-decoration: none;
-    color: $main-black;
-  }
+  font-size: 30px;
+  padding-left: 0.5em;
 }
 
 .header__left {
+  padding-left: 0.5em;
   text-align: left;
 }
 
@@ -19,5 +15,6 @@
 }
 
 .header__right {
+  padding-right: 0.5em;
   text-align: right;
 }

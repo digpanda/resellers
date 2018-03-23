@@ -1,0 +1,26 @@
+.filter {
+
+}
+
+.filter__title {
+
+}
+
+.filter__content {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.filter__button {
+  text-align: center;
+
+  span {
+    color: $main-white;
+    background-color: $main-blue;
+    font-size: 20px;
+    padding: 0.8em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 5px;
+  }
+}
