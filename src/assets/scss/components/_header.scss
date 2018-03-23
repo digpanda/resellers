@@ -1,8 +1,7 @@
 .header {
-  background-color: $main-white;
-  color: $main-black;
+  color: $main-blue;
   padding: 1em;
-  border-bottom: 2px solid $main-black;
+  // border-bottom: 2px solid $main-black;
   text-transform: uppercase;
 
   a {
@@ -11,6 +10,14 @@
   }
 }
 
-.header__title {
+.header__left {
+  text-align: left;
+}
+
+.header__center {
   text-align: center;
+}
+
+.header__right {
+  text-align: right;
 }
