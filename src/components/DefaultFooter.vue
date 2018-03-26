@@ -3,7 +3,7 @@
     <div class="footer-placeholder">
     </div>
     <div class="row row-full footer" ref="footer">
-      Legal
+      Legal | Metrics | Account
     </div>
   </div>
 </template>

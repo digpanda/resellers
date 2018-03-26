@@ -5,6 +5,7 @@
       <div class="row">
         <div class="gr-12">
           <div class="filter">
+
             <div class="filter__title">
               <div class="row">
                 <div class="gr-12">
@@ -12,20 +13,9 @@
                 </div>
               </div>
             </div>
-            <div class="filter__content">
-              <div class="row">
-                <div class="gr-6">
-                  <div class="filter__button">
-                    <span>Category</span>
-                  </div>
-                </div>
-                <div class="gr-6">
-                  <div class="filter__button">
-                    <span>Brand</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            <filters />
+
           </div>
         </div>
       </div>
@@ -42,11 +32,34 @@
               </div>
             </div>
 
-            <div class="row">
-              <div class="gr-12">
-                <div class="list__item">
-                  ITEMS
+            <div class="list__items">
+              <div class="row">
+
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
                 </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+                <div class="gr-2 gr-4@tablet gr-6@mobile">
+                  <product-item />
+                </div>
+
               </div>
             </div>
 
@@ -64,6 +77,8 @@
 
 <script>
 import DefaultLayout from '@/components/DefaultLayout'
+import Filters from '@/components/Filters'
+import ProductItem from '@/components/ProductItem'
 // import { mapGetters } from 'vuex'
 
 export default {
@@ -85,7 +100,9 @@ export default {
   },
 
   components: {
-    DefaultLayout
+    DefaultLayout,
+    Filters,
+    ProductItem
   }
 }
 </script>

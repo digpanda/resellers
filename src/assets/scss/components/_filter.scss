@@ -13,8 +13,8 @@
 
 .filter__button {
   text-align: center;
+  margin: 0.5em;
 
-  span {
     color: $main-white;
     background-color: $main-blue;
     font-size: 20px;
@@ -22,5 +22,5 @@
     padding-right: 2em;
     padding-left: 2em;
     border-radius: 5px;
-  }
+
 }
