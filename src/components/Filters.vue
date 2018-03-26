@@ -3,12 +3,12 @@
     <div class="row">
       <div class="gr-6">
         <div class="filter__button">
-          <span>Category</span>
+          <span>Category</span> <span class="icon icon-dropdown"></span>
         </div>
       </div>
       <div class="gr-6">
         <div class="filter__button">
-          <span>Brand</span>
+          <span>Brand</span> <span class="icon icon-dropdown"></span>
         </div>
       </div>
     </div>

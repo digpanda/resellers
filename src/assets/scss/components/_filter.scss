@@ -7,20 +7,22 @@
 }
 
 .filter__content {
-  padding-top: 3em;
-  padding-bottom: 3em;
 }
 
 .filter__button {
   text-align: center;
   margin: 0.5em;
 
-    color: $main-white;
-    background-color: $main-blue;
-    font-size: 20px;
-    padding: 0.8em;
-    padding-right: 2em;
-    padding-left: 2em;
-    border-radius: 5px;
+  color: $main-white;
+  background-color: $main-blue;
+  font-size: 22px;
+  padding: 0.8em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-radius: 5px;
 
+  .icon {
+    font-size: 18px;
+    vertical-align: text-bottom;
+  }
 }

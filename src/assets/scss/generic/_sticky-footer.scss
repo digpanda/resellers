@@ -6,14 +6,23 @@
     transform: translateZ(0);
 } */
 
-.footer-placeholder {
-  min-height: 95vh;
+html, body {
+  height: 100vh;
 }
 
-.footer {
-  min-height: 2vh;
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .header {
   min-height: 2vh;
+}
+
+.default-footer {
+
+  /* margin-top: 0.5em;
+  position: absolute;
+  bottom: 0; */
 }
