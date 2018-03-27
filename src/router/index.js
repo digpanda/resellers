@@ -6,6 +6,7 @@ import Index from '@/components/Index'
 import Dashboard from '@/components/Dashboard'
 import SelectCategory from '@/components/SelectCategory'
 import Product from '@/components/Product'
+import ProductItemFull from '@/components/ProductItemFull'
 
 Vue.use(Router)
 
@@ -38,8 +39,13 @@ Vue.router = new Router({
       name: 'product',
       path: '/product',
       component: Product
-    }
+    },
 
+    {
+      name: 'product-item-full',
+      path: '/product-item-full',
+      component: ProductItemFull
+    }
   ]
 })
 

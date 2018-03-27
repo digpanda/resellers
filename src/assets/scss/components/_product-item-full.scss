@@ -1,0 +1,32 @@
+.product-item-full {
+}
+
+.product-item-full__close {
+  text-align: right;
+  padding: 0.5em;
+  font-size: 30px;
+  &:active {
+    color: $main-blue;
+  }
+}
+
+.product-item-full__item {
+  margin: 0.5em;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.product-item-full__title {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.product-item-full__description {
+  font-size: 18px;
+  font-weight: 300;
+}

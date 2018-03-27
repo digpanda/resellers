@@ -36,28 +36,28 @@
               <div class="row">
 
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
                 <div class="gr-2 gr-4@tablet gr-6@mobile">
-                  <product-item />
+                  <product-select />
                 </div>
 
               </div>
@@ -78,7 +78,7 @@
 <script>
 import DefaultLayout from '@/components/DefaultLayout'
 import Filters from '@/components/Filters'
-import ProductItem from '@/components/ProductItem'
+import ProductSelect from '@/components/ProductSelect'
 // import { mapGetters } from 'vuex'
 
 export default {
@@ -102,7 +102,7 @@ export default {
   components: {
     DefaultLayout,
     Filters,
-    ProductItem
+    ProductSelect
   }
 }
 </script>

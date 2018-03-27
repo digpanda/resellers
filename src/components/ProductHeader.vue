@@ -3,7 +3,7 @@
     <div class="product-header__shadow"></div>
     <div class="gr-4">
       <div class="product-header__left">
-        <span class="icon-back"></span>
+        <span class="icon-back" @click="goBack()"></span>
       </div>
     </div>
     <div class="gr-4">
@@ -32,6 +32,9 @@ export default {
   },
 
   methods: {
+    goBack () {
+      this.$router.go(-1)
+    }
   }
 }
 </script>

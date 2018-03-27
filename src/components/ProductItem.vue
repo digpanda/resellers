@@ -1,26 +1,33 @@
 <template>
-  <div class="product-item +clickable" @click="goProduct()">
-
+  <div class="product-item +clickable" @click="goProductItemFull()">
     <div class="row">
-      <div class="gr-12">
-        <div class="product-item__image">
-          <img src="https://www.germanyinbox.com/uploads/package_set/cover/5a980f9a7302fc598477f996/Untitled-1.jpg?e=1522065838&token=sjmi6rq8r6Z7oO84m9WQ3grXZJNaDmBlHC5eDWsu:SGCgJKTCVjxs3y0s5g3CQJyktfg=" />
+      <div class="gr-2">
+        <div class="product-item__image" style="background-image:url('https://www.germanyinbox.com/uploads/image/file/5a17fd417302fc21430139b0/8008001.jpg?e=1522162088&token=sjmi6rq8r6Z7oO84m9WQ3grXZJNaDmBlHC5eDWsu:SkEhLFkoOQdvQeYjr15tfoCYGWk=')">
         </div>
       </div>
-      <div class="gr-12">
-        <div class="product-item__content">
-          <div class="product-item__title">
-            Long title of the product here and some lorem ipsum
+      <div class="gr-10">
+        <div class="row">
+          <div class="gr-8">
+            <div class="product-item__title">Item One <span>Brand</span></div>
           </div>
-          <span class="product-item__regular-price">100,00$</span> <span class="product-item__reseller-price">100,00$</span>
+          <div class="gr-4">
+            <div class="product-item__details">2 x 200g</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="gr-12">
+            <div class="product-item__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
+import ProductLayout from '@/components/ProductLayout'
 
 export default {
   data () {
@@ -32,8 +39,8 @@ export default {
   },
 
   methods: {
-    goProduct () {
-      this.$router.push({ name: 'product' })
+    goProductItemFull () {
+      this.$router.push({ name: 'product-item-full' })
     }
   },
 
@@ -47,6 +54,7 @@ export default {
   },
 
   components: {
+    ProductLayout
   }
 }
 </script>
