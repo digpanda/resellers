@@ -1,14 +1,19 @@
 a {
   display: block;
   cursor: pointer;
+
+  &:active {
+    -webkit-filter: opacity(0.85);
+    filter: opacity(0.85);
+  }
 }
 
-a:hover {
-  /* -webkit-filter: opacity(0.9);
-  filter: opacity(0.9); */
-}
+.\+clickable {
+  display: block;
+  cursor: pointer;
 
-a:active {
-  -webkit-filter: opacity(0.85);
-  filter: opacity(0.85);
+  &:active {
+    -webkit-filter: opacity(0.85);
+    filter: opacity(0.85);
+  }
 }

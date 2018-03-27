@@ -1,8 +1,6 @@
 <template>
   <div class="default-footer">
-    <div class="footer-placeholder">
-    </div>
-    <div class="row row-full footer" ref="footer">
+    <div class="row row-full footer">
       Legal | Metrics | Account
     </div>
   </div>

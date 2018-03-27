@@ -7,12 +7,10 @@
 } */
 
 html, body {
-  height: 100vh;
+  height: 100%;
 }
 
 #app {
-  display: flex;
-  flex-direction: column;
   height: 100%;
 }
 
@@ -21,8 +19,11 @@ html, body {
 }
 
 .default-footer {
+}
 
-  /* margin-top: 0.5em;
-  position: absolute;
-  bottom: 0; */
+.default-layout {
+}
+
+.main-content {
+  min-height: 85vh;
 }

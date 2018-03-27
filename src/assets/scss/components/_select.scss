@@ -1,0 +1,26 @@
+.select {
+  font-size: 22px;
+}
+
+.select__close {
+  text-align: right;
+  padding: 0.5em;
+  font-size: 30px;
+  &:active {
+    color: $main-blue;
+  }
+}
+
+.select__item {
+  border-top: 1px solid $light-grey;
+  padding: 0.5em;
+
+  &:active {
+    color: $main-blue;
+  }
+}
+
+.select__item-description {
+  font-size: 18px;
+  color: $main-grey;
+}

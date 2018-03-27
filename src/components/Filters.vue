@@ -2,7 +2,7 @@
   <div class="filter__content">
     <div class="row">
       <div class="gr-6">
-        <div class="filter__button">
+        <div class="filter__button +clickable" @click="selectCategory()">
           <span>Category</span> <span class="icon icon-dropdown"></span>
         </div>
       </div>
@@ -27,6 +27,9 @@ export default {
   },
 
   methods: {
+    selectCategory () {
+      this.$router.push({ name: 'select-category' })
+    }
   },
 
   created () {
