@@ -1,0 +1,42 @@
+.product-header {
+  position: relative;
+  color: $main-white;
+  background-color: $main-blue;
+  padding: 1em;
+  font-size: 30px;
+  padding-left: 0.5em;
+  background-size: cover;
+  background-position: center;
+  min-height: 40vw;
+}
+
+.product-header__shadow {
+  z-index: -1; // no alpha gradient on the elements
+  background-image: linear-gradient(rgba(0,0,0,0), black);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+}
+
+.product-header__left {
+  z-index: 10;
+  padding-left: 0.5em;
+  text-align: left;
+}
+
+.product-header__center {
+  text-align: center;
+}
+
+.product-header__right {
+  padding-right: 0.5em;
+  text-align: right;
+}
+
+.product-header__title {
+  position: absolute;
+  bottom: 1em;
+  right: 0.5em;
+  text-align: center;
+}

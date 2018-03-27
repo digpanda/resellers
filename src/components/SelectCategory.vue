@@ -9,7 +9,7 @@
     </div>
     <div class="row">
       <div class="gr-12">
-        <div class="select__item">
+        <div class="select__item +clickable" @click="">
           <span>Random Category</span>
           <div class="select__item-description">
             Description of the current category and stuff

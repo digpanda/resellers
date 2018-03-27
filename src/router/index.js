@@ -5,6 +5,7 @@ import GettingStarted from '@/components/GettingStarted'
 import Index from '@/components/Index'
 import Dashboard from '@/components/Dashboard'
 import SelectCategory from '@/components/SelectCategory'
+import Product from '@/components/Product'
 
 Vue.use(Router)
 
@@ -31,7 +32,14 @@ Vue.router = new Router({
       name: 'select-category',
       path: '/select-category',
       component: SelectCategory
+    },
+
+    {
+      name: 'product',
+      path: '/product',
+      component: Product
     }
+
   ]
 })
 

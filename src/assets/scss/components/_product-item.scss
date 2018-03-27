@@ -1,11 +1,11 @@
-.product {
+.product-item {
   background-color: $main-white;
   border-radius: 5px;
   margin: 0.5em;
   padding: 0.5em;
 }
 
-.product__image {
+.product-item__image {
   text-align: center;
   margin: 0 auto;
   img {
@@ -14,7 +14,7 @@
   }
 }
 
-.product__title {
+.product-item__title {
   font-size: 20px;
   font-weight: 300;
   white-space: nowrap;
@@ -23,12 +23,12 @@
   margin-bottom: 0.2em;
 }
 
-.product__reseller-price {
+.product-item__reseller-price {
   color: $main-blue;
   font-size: 18px;
 }
 
-.product__regular-price {
+.product-item__regular-price {
   color: $main-grey;
   text-decoration: line-through;
   font-size: 18px;
