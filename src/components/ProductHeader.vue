@@ -3,7 +3,7 @@
     <div class="product-header__shadow"></div>
     <div class="gr-4">
       <div class="product-header__left">
-        <span class="icon-back" @click="goBack()"></span>
+        <span class="icon-back +clickable" @click="goBack()"></span>
       </div>
     </div>
     <div class="gr-4">
@@ -12,7 +12,7 @@
     </div>
     <div class="gr-4">
       <div class="product-header__right">
-        <span class="icon-checkout"></span>
+        <span class="icon-checkout +clickable" @click="goCheckout()"></span>
       </div>
     </div>
 
@@ -34,6 +34,10 @@ export default {
   methods: {
     goBack () {
       this.$router.go(-1)
+    },
+
+    goCheckout () {
+      this.$router.push({ name: 'checkout' })
     }
   }
 }

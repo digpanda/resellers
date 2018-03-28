@@ -26,9 +26,24 @@
 
       </div>
 
-      <!-- Buy button -->
+      <!-- Pricing -->
       <div class="row">
         <div class="gr-12">
+          <div class="product__regular-price">
+            ¥10000,00
+          </div>
+          <div class="product__reseller-price">
+            ¥1000,00
+          </div>
+          <div class="product__reseller-price--details">
+            ( 含税包邮 )
+          </div>
+        </div>
+      </div>
+
+      <!-- Buy button -->
+      <div class="row">
+        <div class="gr-12 +clickable">
           <div class="product__buy">Add to cart</div>
         </div>
       </div>
@@ -36,6 +51,9 @@
       <!-- Footer -->
       <div class="row">
         <div class="gr-12">
+          <div class="product__footer">
+            Footer with explanation inside
+          </div>
         </div>
       </div>
 

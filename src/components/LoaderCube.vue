@@ -3,7 +3,7 @@
     <div class="loader">
 
       <div class="loader__quote">
-        <span class="loader__quote-outside">“</span> Bloodbath : n.m. In financial terms: refers to an investment resulting in massive and unexpected loss. <span class="loader__quote-outside">”</span>
+        <span class="loader__quote-outside">“</span>...<span class="loader__quote-outside">”</span>;
       </div>
 
       <span class="loader__text">

@@ -7,6 +7,7 @@ import Dashboard from '@/components/Dashboard'
 import SelectCategory from '@/components/SelectCategory'
 import Product from '@/components/Product'
 import ProductItemFull from '@/components/ProductItemFull'
+import Checkout from '@/components/Checkout'
 
 Vue.use(Router)
 
@@ -45,7 +46,14 @@ Vue.router = new Router({
       name: 'product-item-full',
       path: '/product-item-full',
       component: ProductItemFull
+    },
+
+    {
+      name: 'checkout',
+      path: '/checkout',
+      component: Checkout
     }
+
   ]
 })
 
