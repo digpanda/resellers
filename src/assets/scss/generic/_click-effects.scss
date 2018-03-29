@@ -17,3 +17,12 @@ a {
     filter: opacity(0.85);
   }
 }
+
+.\+clickable-no-block {
+  cursor: pointer;
+
+  &:active {
+    -webkit-filter: opacity(0.85);
+    filter: opacity(0.85);
+  }
+}

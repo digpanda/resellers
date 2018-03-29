@@ -1,0 +1,63 @@
+.checkout-brief {
+  background-color: $main-white;
+  border-radius: 3px;
+  margin: 1em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.checkout-brief__text {
+  font-size: 20px;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.checkout-brief__digits {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0.7em;
+  padding-left: 0.3em;
+}
+
+.checkout-brief__coupon {
+  margin-top: 1em;
+}
+
+.checkout-brief__coupon--field {
+  margin-left: 1em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  input {
+    border: 1px dashed $main-blue;
+    background-color: $main-white;
+  }
+}
+
+.checkout-brief__coupon--icon {
+  margin-top: 0.6em;
+  font-size: 30px;
+  text-align: center;
+  color: $main-blue;
+  position: relative;
+  span {
+    position: absolute;
+    left: -15px;
+    top: -15px;
+  }
+}
+
+.checkout-brief__coupon--button {
+  margin-right: 1em;
+  margin-top: 1em;
+  text-align: center;
+  font-weight: 600;
+  color: $main-white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #4f96d6;
+}

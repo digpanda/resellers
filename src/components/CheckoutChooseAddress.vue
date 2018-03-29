@@ -1,5 +1,5 @@
 <template>
-  <div class="checkout">
+  <div class="checkout-choose-address">
     <default-layout>
 
       <div class="row">
@@ -10,16 +10,9 @@
         </div>
       </div>
 
-      <!-- Checkout Products -->
-      <checkout-product />
-      <checkout-product />
-
-      <!-- Global brief -->
-      <checkout-brief />
-
       <div class="row">
         <div class="gr-12">
-          <div class="checkout__confirm +clickable" @click="goCheckoutChooseAddress()">
+          <div class="checkout__confirm +clickable" @click="">
             Checkout
           </div>
         </div>
@@ -31,8 +24,6 @@
 
 <script>
 import DefaultLayout from '@/components/DefaultLayout'
-import CheckoutProduct from '@/components/CheckoutProduct'
-import CheckoutBrief from '@/components/CheckoutBrief'
 // import { mapGetters } from 'vuex'
 
 export default {
@@ -45,9 +36,6 @@ export default {
   },
 
   methods: {
-    goCheckoutChooseAddress () {
-      this.$router.push({ name: 'checkout-choose-address' })
-    }
   },
 
   watch: {
@@ -57,9 +45,7 @@ export default {
   },
 
   components: {
-    DefaultLayout,
-    CheckoutProduct,
-    CheckoutBrief
+    DefaultLayout
   }
 }
 </script>

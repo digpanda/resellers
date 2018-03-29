@@ -16,15 +16,15 @@ input {
   width: -webkit-fill-available;
 
   &:focus {
-    // border-color: $footer-border-color;
+    border: 1px solid $main-blue !important;
   }
 }
 
 ::placeholder {
-   // color: $input-placeholder-color;
-   opacity: 0.8;
+   color: $main-grey;
+   opacity: 0.6;
 }
 
 input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }

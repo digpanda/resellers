@@ -1,0 +1,25 @@
+.checkout {
+
+}
+
+.checkout__title {
+  h2 {
+    font-weight: 600;
+  }
+}
+
+.checkout__confirm {
+  margin: 1em;
+  margin-top: 0;
+  text-align: center;
+  font-weight: 600;
+  color: $main-white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #4f96d6;
+}
