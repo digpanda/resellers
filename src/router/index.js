@@ -8,7 +8,8 @@ import SelectCategory from '@/components/SelectCategory'
 import Product from '@/components/Product'
 import ProductItemFull from '@/components/ProductItemFull'
 import Checkout from '@/components/Checkout'
-import CheckoutChooseAddress from '@/components/CheckoutChooseAddress'
+import CheckoutAddress from '@/components/CheckoutAddress'
+import CheckoutPayment from '@/components/CheckoutPayment'
 
 Vue.use(Router)
 
@@ -56,9 +57,15 @@ Vue.router = new Router({
     },
 
     {
-      name: 'checkout-choose-address',
-      path: '/checkout-choose-address',
-      component: CheckoutChooseAddress
+      name: 'checkout-address',
+      path: '/checkout-address',
+      component: CheckoutAddress
+    },
+
+    {
+      name: 'checkout-payment',
+      path: '/checkout-payment',
+      component: CheckoutPayment
     }
 
   ]

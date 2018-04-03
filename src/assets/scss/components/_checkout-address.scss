@@ -1,0 +1,73 @@
+.checkout-address {
+  margin: 1em;
+
+  input {
+    margin: 0.5em;
+  }
+
+}
+
+.checkout-address__country {
+  margin: 0.5em;
+  border: solid 2px $main-blue;
+  display: inline-block;
+  border-radius: 5px;
+  overflow: hidden;
+
+  input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+    display: none;
+  }
+
+  label {
+    color: $main-blue;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    margin: -0.4em;
+  }
+
+  input[type=radio]:checked + label {
+    color: $main-white;
+    background: $main-blue;
+  }
+
+
+  label + input[type=radio] + label {
+    border-left: solid 2px $main-blue;
+  }
+
+}
+
+.checkout-address__title {
+  h2, h3 {
+    font-weight: 600;
+  }
+}
+
+.checkout-address__help {
+  color: $main-grey;
+  margin: 0.5em;
+}
+
+.checkout-address__block {
+  background-color: $main-white;
+  border-radius: 3px;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.checkout-address__block--name {
+  font-weight: 600;
+}
+
+.checkout-address__block--phone {
+  color: $main-blue;
+}
+
+.checkout-address__block--remove {
+  color: $main-red;
+  float: right;
+}

@@ -19,8 +19,8 @@
 
       <div class="row">
         <div class="gr-12">
-          <div class="checkout__confirm +clickable" @click="goCheckoutChooseAddress()">
-            Checkout
+          <div class="checkout__confirm +clickable" @click="goCheckoutAddress()">
+            Place Order
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@ export default {
   },
 
   methods: {
-    goCheckoutChooseAddress () {
-      this.$router.push({ name: 'checkout-choose-address' })
+    goCheckoutAddress () {
+      this.$router.push({ name: 'checkout-address' })
     }
   },
 

@@ -1,19 +1,24 @@
 <template>
-  <div class="checkout-choose-address">
+  <div class="checkout-payment">
     <default-layout>
 
       <div class="row">
         <div class="gr-12">
           <div class="checkout__title">
-            <h2>Your order</h2>
+            <h2>Choose payment method</h2>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="gr-12">
-          <div class="checkout__confirm +clickable" @click="">
-            Checkout
+        <div class="gr-3 gr-6@tablet gr-12@mobile">
+          <div class="checkout-payment__choice">
+            <img src="/static/images/logo/raw-wechatpay-logo.png" />
+          </div>
+        </div>
+        <div class="gr-3 gr-6@tablet gr-12@mobile">
+          <div class="checkout-payment__choice">
+            <img src="/static/images/logo/raw-alipay-logo.png" />
           </div>
         </div>
       </div>

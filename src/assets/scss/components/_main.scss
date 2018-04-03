@@ -6,7 +6,9 @@
    Imports
    ========================================================================== */
 
+@import "checkout-address";
 @import "checkout-brief";
+@import "checkout-payment";
 @import "checkout-product";
 @import "checkout";
 @import "crash-error";
