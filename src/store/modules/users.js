@@ -22,9 +22,9 @@ const getters = {
 
 // actions
 const actions = {
-  async authenticateWechatUser (context, authenticateData) {
+  async authenticateTokenUser (context, authenticateData) {
     try {
-      let response = await axios.post(`connect/wechat`, authenticateData)
+      let response = await axios.post(`connect/token`, authenticateData)
       let user = response.data
       let token = response.data.token
 
@@ -37,7 +37,6 @@ const actions = {
       context.commit('setCurrentUser', user)
       console.log('current user was set')
       console.log(context.state.currentUser)
-      // window.location.href = '/'
     } catch (error) {
       EventBus.$emit('crashEvent', 'Impossible to log-in to Wechat')
     }

@@ -52,15 +52,38 @@ export default {
       this.$noty.error(error)
     })
 
+    /**
+     * We try to connect via URL token if we have one
+     */
+    let token = this.$route.query.token
+    if (token) {
+      this.connectViaToken(token)
+      return
+    }
+
+    /**
+    * We try to force redirect to Wechat connect system of the API
+    */
     this.connectWechat()
   },
 
   methods: {
+    /**
+     * When any endpoint is resolved it should give a token in return
+     * We can then log-in
+     */
+    connectViaToken (token) {
+      this.$store.dispatch('authenticateTokenUser', { token: token })
+    },
+
+    /**
+     * We redirect the user to the endpoint so he can logs in
+     * It will provide us with a token which we can use later on
+     */
     connectWechat () {
-      let code = this.$route.query.code
-      // NOTE : while in development we auto-set the code so it's faster to get into things
-      code = 'guide@guide.com'
-      this.$store.dispatch('authenticateWechatUser', { code: code })
+      let currentUrl = window.location.href
+      let endpoint = process.env.API
+      window.location.replace(`${endpoint}/connect/wechat?callback=${currentUrl}`)
     }
   },
 
